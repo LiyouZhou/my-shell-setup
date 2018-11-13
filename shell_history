@@ -144,3 +144,14 @@ ls
 : 1542109461:0;gd "setup/subl/User/Package Control.sublime-settings"
 : 1542123337:0;cd ..
 : 1542123350:0;cat ~/.bash_history > setup/my-shell-setup/shell_history && cat ~/.zsh_history >> setup/my-shell-setup/shell_history
+: 1542123356:0;cd setup
+: 1542123356:0;gs
+: 1542123359:0;cd my-shell-setup
+: 1542123359:0;gs
+: 1542123366:0;git add shell_history
+: 1542123369:0;git commit
+: 1542123393:0;git config --global user.name "Liyou Zhou"
+: 1542123403:0;git config --global user.email liyou.zhou@arm.com
+: 1542123409:0;git push
+: 1542123416:0;cat ~/.bash_history > setup/my-shell-setup/shell_history && cat ~/.zsh_history >> setup/my-shell-setup/shell_history
+: 1542123432:0;cat ~/.bash_history > ~/setup/my-shell-setup/shell_history && cat ~/.zsh_history >> ~/setup/my-shell-setup/shell_history
