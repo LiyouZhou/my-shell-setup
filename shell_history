@@ -1,0 +1,93 @@
+open /var/log/jamf.log 
+sudo jamf policy -event enrollmentComplete
+zsh
+ssh-keygen -t rsa -b 4096 -C "liyou.zhou@arm.com"
+eval "$(ssh-agent -s)"
+ssh-add -K ~/.ssh/id_rsa
+pbcopy < ~/.ssh/id_rsa.pub
+mkdir work
+git clone git@github.com:ARMmbed/update-client-hub.git
+cd update-client-hub/
+clear
+ls
+brew tap ArmMbed/homebrew-formulae
+brew install arm-none-eabi-gcc
+arm-none-eabi-gcc
+brew install ccache
+pip install mbed-cli
+brew install python
+brew install python@2
+cd ..
+ls
+mv update-client-hub/ work/
+gs
+clear
+mkdir setup
+cd setup/
+git clone git@github.com:liyouzhou/update-client-hub.git
+git clone git@github.com:liyouzhou/muy-shell-setup.git
+git clone git@github.com:liyouzhou/my-shell-setup.git
+ls
+ls -al
+cd my-shell-setup/
+ls -al
+cp .zshrc ~/
+curl -L https://iterm2.com/shell_integration/install_shell_integration_and_utilities.sh | bash
+ls
+which sh
+gcp
+gco
+ls .bash_history 
+cat .bash_history 
+chsh -s /bin/zsh 
+cd setup/my-shell-setup/
+ls
+cd setup/
+subl
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+: 1542044803:0;ls
+: 1542044804:0;clear
+: 1542044811:0;cd work
+: 1542044826:0;cd update-client-hub
+: 1542107194:0;cd work/update-client-hub
+: 1542107215:0;npm install --global pure-prompt
+: 1542107222:0;brew install npm
+: 1542107248:0;npm install --global pure-prompt
+: 1542107265:0;cd work/update-client-hub
+: 1542107296:0;ln -s ~/
+: 1542107365:0;ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+: 1542107387:0;ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+: 1542107389:0;subl 
+: 1542107403:0;ls -l /usr/local/bin/subl
+: 1542107412:0;zshrc
+: 1542107438:0;nano ~/.zshrc
+: 1542107468:0;cd ..
+: 1542107508:0;cp setup/my-shell-setup/.zshrc .
+: 1542107532:0;brew install fortune
+: 1542107543:0;clear
+: 1542107544:0;ls
+: 1542107553:0;cd work/update-client-hub
+: 1542107556:0;clear
+: 1542107557:0;gs
+: 1542107564:0;cat liyzho01
+: 1542107574:0;rm liyzho01
+: 1542107578:0;cd ..
+: 1542107579:0;gs
+: 1542107580:0;cd ..
+: 1542107582:0;ls
+: 1542107589:0;clear
+: 1542107672:0;cat ~/.bash_history > setup/my-shell-setup/shell_history && cat ~/.zsh_history >> setup/my-shell-setup/shell_history
+: 1542107677:0;subl setup/my-shell-setup/shell_history
+: 1542107711:0;chmod +x /usr/local/bin/subl
+: 1542107723:0;subl
+: 1542107731:0;ls -l /usr/local/bin/subl
+: 1542107741:0;"/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl"
+: 1542107800:0;brew cask install sublime-test
+: 1542107806:0;brew cask install sublime-text
+: 1542107862:0;ls -l /usr/local/bin/subl
+: 1542107871:0;/usr/local/bin/subl
+: 1542107880:0;subl 
+: 1542107886:0;subl
+: 1542107898:0;cat ~/.bash_history > setup/my-shell-setup/shell_history && cat ~/.zsh_history >> setup/my-shell-setup/shell_history
+: 1542107953:0;git config --global core.editor "subl -n -w"
+: 1542107995:0;cat ~/.bash_history > setup/my-shell-setup/shell_history && cat ~/.zsh_history >> setup/my-shell-setup/shell_history
