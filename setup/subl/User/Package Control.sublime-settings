@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"DoxyDoxygen",
+		"DoxyDoxygen (evolution)",
+		"Git",
+		"GitGutter",
+		"Package Control",
+		"PlantUmlDiagrams",
+		"SublimeAStyleFormatter",
+		"TrailingSpaces",
+		"ZSH"
+	]
+}
